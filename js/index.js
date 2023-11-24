@@ -12,7 +12,7 @@ window.addEventListener("load", (event) => {
 //--------------------------------------------------------
 
 let page = 1;
-const data = 'https://newsapi.org/v2/everything?q=tesla&from=2023-10-23&sortBy=publishedAt&apiKey=ebf9900e73434f09bc30dd893c0c4edd';
+const data = 'https://jsonplaceholder.typicode.com/posts';
 const container = document.querySelector('.container');
 const contentLoader = document.querySelector('.content-loader');
 let isLoading = false;
